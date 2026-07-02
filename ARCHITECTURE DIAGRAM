@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="oX19iB3l6O-ZJtJVr4b9">
+    <mxGraphModel dx="1030" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JjNbD14d_i0ceN5-aIod-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FLASK BACKEND&lt;div&gt;(app.py)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="JjNbD14d_i0ceN5-aIod-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="LOAN APPLICANS" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JjNbD14d_i0ceN5-aIod-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FRONTEND&lt;div&gt;HTML&lt;/div&gt;&lt;div&gt;CSS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="JjNbD14d_i0ceN5-aIod-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MACHINE LEARNING&amp;nbsp;&lt;div&gt;MODEL&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="JjNbD14d_i0ceN5-aIod-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PREDICTION&lt;div&gt;LOAN APPROVED&lt;/div&gt;&lt;div&gt;LOAN REJECTION&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="JjNbD14d_i0ceN5-aIod-6" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" value="" vertex="1">
+          <mxGeometry height="60" width="20" x="415" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JjNbD14d_i0ceN5-aIod-11" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" value="" vertex="1">
+          <mxGeometry height="60" width="20" x="415" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="JjNbD14d_i0ceN5-aIod-13" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" value="" vertex="1">
+          <mxGeometry height="60" width="20" x="415" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="JjNbD14d_i0ceN5-aIod-18" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" value="" vertex="1">
+          <mxGeometry height="60" width="20" x="420" y="520" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
