@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Loan Prediction</title>
+
+<style>
+
+body{
+    font-family:Arial;
+    background:#f2f2f2;
+}
+
+.container{
+    width:60%;
+    margin:auto;
+    margin-top:30px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px gray;
+}
+
+input,select{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+
+input[type=submit]{
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+input[type=submit]:hover{
+    background:darkgreen;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Enter Loan Details</h2>
+
+<form action="/submit" method="POST">
+
+<label>Gender</label>
+<select name="Gender">
+<option value="1">Male</option>
+<option value="0">Female</option>
+</select>
+
+<label>Married</label>
+<select name="Married">
+<option value="1">Yes</option>
+<option value="0">No</option>
+</select>
+
+<label>Dependents</label>
+<select name="Dependents">
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3+</option>
+</select>
+
+<label>Education</label>
+<select name="Education">
+<option value="1">Graduate</option>
+<option value="0">Not Graduate</option>
+</select>
+
+<label>Self Employed</label>
+<select name="Self_Employed">
+<option value="1">Yes</option>
+<option value="0">No</option>
+</select>
+
+<label>Applicant Income</label>
+<input type="number" name="ApplicantIncome" required>
+
+<label>Co Applicant Income</label>
+<input type="number" name="CoapplicantIncome" required>
+
+<label>Loan Amount</label>
+<input type="number" name="LoanAmount" required>
+
+<label>Loan Amount Term</label>
+<input type="number" name="Loan_Amount_Term" required>
+
+<label>Credit History</label>
+<select name="Credit_History">
+<option value="1">1</option>
+<option value="0">0</option>
+</select>
+
+<label>Property Area</label>
+<select name="Property_Area">
+<option value="2">Urban</option>
+<option value="1">Semiurban</option>
+<option value="0">Rural</option>
+</select>
+
+<input type="submit" value="Predict">
+
+</form>
+
+</div>
+
+</body>
+</html>
